@@ -1,0 +1,214 @@
+2015-10-04.16:46:35	Trying to set up.
+2015-10-04.16:46:35	Setting up completed.
+2015-10-04.16:46:37	Reading input from block 1
+2015-10-04.16:46:37	The input file for block 1 is OK.
+2015-10-04.16:46:37	Reading completed.
+2015-10-04.16:46:38	Reading input from block 2
+2015-10-04.16:46:38	The input file for block 2 is OK.
+2015-10-04.16:46:38	Reading completed.
+2015-10-04.16:46:40	Reading input from block 3
+2015-10-04.16:46:40	The input file for block 3 is OK.
+2015-10-04.16:46:40	Reading completed.
+2015-10-04.16:46:41	Reading input from block 4
+2015-10-04.16:46:41	The input file for block 4 is OK.
+2015-10-04.16:46:41	Reading completed.
+2015-10-04.16:46:43	Reading input from block 5
+2015-10-04.16:46:43	The input file for block 5 is OK.
+2015-10-04.16:46:43	Reading completed.
+2015-10-04.16:46:46	Reading input from block 6
+2015-10-04.16:46:46	The input file for block 6 is OK.
+2015-10-04.16:46:46	Reading completed.
+2015-10-04.16:46:48	Reading input from block 7
+2015-10-04.16:46:48	The input file for block 7 is OK.
+2015-10-04.16:46:48	Reading completed.
+2015-10-04.16:46:50	Executing block 1
+2015-10-04.16:46:50	The winner median is 1200, LB_Bao__Loc.
+2015-10-04.16:46:50	The loser median is 1200, Quoc__Hung_.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1180, Quoc__Hung_.
+2015-10-04.16:46:50	The loser median is 1180, Hoang__Vu__.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1160, Van__Hoang_.
+2015-10-04.16:46:50	The loser median is 1160, Hung__Trung.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1140, Duy__Tinh__ and Minh__Tri__.
+2015-10-04.16:46:50	The loser median is 1140, BH_Chi_Nhan and Long__Hiep_.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1160, Xuan__Hoang and Ng_Cat__Han.
+2015-10-04.16:46:50	The loser median is 1160, Thai__Nghi_ and Trng_Nguyen.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1140, Ng_Nhat_Nam.
+2015-10-04.16:46:50	The loser median is 1140, Tien__Trung.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1160, Trng_Nguyen and Khuong__Duy.
+2015-10-04.16:46:50	The loser median is 1160, Viet__Huong and Minh__Duong.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The ratings do not change.
+2015-10-04.16:46:50	The winner median is 1140, Ng_Le_Cat__ and Gia__Khang_.
+2015-10-04.16:46:50	The loser median is 1140, Quang__Huy_ and Duc__Huy___.
+2015-10-04.16:46:50	E_w = 0.5, E_l = 0.5
+2015-10-04.16:46:50	The winner median is 1120, HTuan_Khoi_.
+2015-10-04.16:46:50	The loser median is 1160, Xuan__Hoang.
+2015-10-04.16:46:50	E_w = 0.442688, E_l = 0.557312
+2015-10-04.16:46:50	Executing completed.
+2015-10-04.16:46:52	Executing block 2
+2015-10-04.16:46:52	The loser median is 1137.71, Xuan__Hoang.
+2015-10-04.16:46:52	E_w = 0.557312, E_l = 0.442688
+2015-10-04.16:46:52	The winner median is 1122.29, Thanh__An__ and Tien__Trung.
+2015-10-04.16:46:52	The loser median is 1080, Duy__Tinh__ and Dinh__Trong.
+2015-10-04.16:46:52	E_w = 0.560565, E_l = 0.439435
+2015-10-04.16:46:52	The winner median is 1102.42, Khuong__Duy and Trng_Nguyen.
+2015-10-04.16:46:52	The loser median is 1062.42, Duc__Huy___ and Ha_Cuu_Long.
+2015-10-04.16:46:52	E_w = 0.557312, E_l = 0.442688
+2015-10-04.16:46:52	The winner median is 1137.71, LB_Bao__Loc and Xuan__Hoang.
+2015-10-04.16:46:52	The loser median is 1102.29, KTuan_Khoa_ and Kim__Thach_.
+2015-10-04.16:46:52	E_w = 0.550791, E_l = 0.449209
+2015-10-04.16:46:52	The ratings do not change.
+2015-10-04.16:46:52	The winner median is 1062.16, Duy__Tinh__.
+2015-10-04.16:46:52	The loser median is 1101.9, Hoang__Vu__.
+2015-10-04.16:46:52	E_w = 0.443058, E_l = 0.556942
+2015-10-04.16:46:52	The winner median is 1079.88, Trng_Nguyen and Ng_Gia__Loc.
+2015-10-04.16:46:52	The loser median is 1077.33, Kim__Thach_ and Gia__Khang_.
+2015-10-04.16:46:52	E_w = 0.503674, E_l = 0.496326
+2015-10-04.16:46:52	The winner median is 1079.74, DHoang__Anh and Khuong__Duy.
+2015-10-04.16:46:52	The loser median is 1064.34, Long__Hiep_ and Ng_Nhat_Nam.
+2015-10-04.16:46:52	E_w = 0.522145, E_l = 0.477855
+2015-10-04.16:46:52	The winner median is 1020.79, Van__Khai__ and Hoang__Vu__.
+2015-10-04.16:46:52	The loser median is 1045.36, Ng_Nhat_Nam and Duy__Tinh__.
+2015-10-04.16:46:52	E_w = 0.464699, E_l = 0.535301
+2015-10-04.16:46:52	The winner median is 1024.06, Duy__Tinh__.
+2015-10-04.16:46:52	The loser median is 1023.83, Ng_Nhat_Nam.
+2015-10-04.16:46:52	E_w = 0.500332, E_l = 0.499668
+2015-10-04.16:46:52	Executing completed.
+2015-10-04.16:46:54	Executing block 3
+2015-10-04.16:46:54	The winner median is 1019.36, Ng_Cat__Han and Quang_Phuoc.
+2015-10-04.16:46:54	The loser median is 1021.51, Toan__Thang and Kim__Thach_.
+2015-10-04.16:46:54	E_w = 0.496909, E_l = 0.503091
+2015-10-04.16:46:54	The winner median is 988.241, Toan__Thang and Ng_Le__Quan.
+2015-10-04.16:46:54	The loser median is 1019.39, Tien__Trung and Ng_Cat__Han.
+2015-10-04.16:46:54	E_w = 0.455296, E_l = 0.544704
+2015-10-04.16:46:54	The winner median is 1036.68, Van__Hoang_ and Quang_Phuoc.
+2015-10-04.16:46:54	The loser median is 1000.15, Quang__Huy_ and HTuan_Khoa_.
+2015-10-04.16:46:54	E_w = 0.552384, E_l = 0.447616
+2015-10-04.16:46:54	The winner median is 1019.09, Quang__Hung.
+2015-10-04.16:46:54	The loser median is 1010.79, LB_Bao__Loc.
+2015-10-04.16:46:54	E_w = 0.511934, E_l = 0.488066
+2015-10-04.16:46:54	The winner median is 968.02, Thai__Nghi_.
+2015-10-04.16:46:54	The loser median is 1000.52, Duy__Tinh__.
+2015-10-04.16:46:54	E_w = 0.453369, E_l = 0.546631
+2015-10-04.16:46:54	The winner median is 1017.09, Xuan__Hoang and Trng_Nguyen.
+2015-10-04.16:46:54	The loser median is 977.362, Tien__Trung and Gia__Phuc__.
+2015-10-04.16:46:54	E_w = 0.556929, E_l = 0.443071
+2015-10-04.16:46:54	The winner median is 992.093, Ng_Cat__Han.
+2015-10-04.16:46:54	The loser median is 972.162, Thai__Nghi_.
+2015-10-04.16:46:54	E_w = 0.528651, E_l = 0.471349
+2015-10-04.16:46:54	The winner median is 985.414, Hung__Trung.
+2015-10-04.16:46:54	The loser median is 941.049, Gia__Phuc__.
+2015-10-04.16:46:54	E_w = 0.563501, E_l = 0.436499
+2015-10-04.16:46:54	The winner median is 1000.32, Xuan__Hoang and Ng_Gia__Loc.
+2015-10-04.16:46:54	The loser median is 957.395, Long__Hiep_ and Quang__Huy_.
+2015-10-04.16:46:54	E_w = 0.561463, E_l = 0.438537
+2015-10-04.16:46:54	The winner median is 1002.02, Duy__Tinh__ and Quang__Hung.
+2015-10-04.16:46:54	The loser median is 964.76, Ng_Ba_Thinh and Tien__Trung.
+2015-10-04.16:46:54	E_w = 0.55342, E_l = 0.44658
+2015-10-04.16:46:54	Executing completed.
+2015-10-04.16:46:57	Executing block 4
+2015-10-04.16:46:57	The winner median is 939.602, Long__Hiep_ and HTuan_Khoa_.
+2015-10-04.16:46:57	The loser median is 946.897, Ng_Ba_Thinh and Tien__Trung.
+2015-10-04.16:46:57	E_w = 0.489503, E_l = 0.510497
+2015-10-04.16:46:57	The winner median is 955.542, KTuan_Khoa_.
+2015-10-04.16:46:57	The loser median is 902.848, Gia__Phuc__.
+2015-10-04.16:46:57	E_w = 0.575257, E_l = 0.424743
+2015-10-04.16:46:57	The winner median is 958.199, Dau_Hai_Nam and Trng_Nguyen.
+2015-10-04.16:46:57	The loser median is 928.996, Ha_Cuu_Long and Hung__Trung.
+2015-10-04.16:46:57	E_w = 0.541928, E_l = 0.458072
+2015-10-04.16:46:57	The winner median is 941.801, Duy__Tinh__ and HTuan_Khoa_.
+2015-10-04.16:46:57	The loser median is 889.644, Quoc__Huy__ and Son__Hoang_.
+2015-10-04.16:46:57	E_w = 0.574502, E_l = 0.425498
+2015-10-04.16:46:57	The winner median is 960.74, Duy__Tinh__ and Gia__Khang_.
+2015-10-04.16:46:57	The loser median is 908.632, Thai__Nghi_ and Tien__Trung.
+2015-10-04.16:46:57	E_w = 0.574432, E_l = 0.425568
+2015-10-04.16:46:57	The winner median is 945.985, HTuan_Khoa_ and Van__Hoang_.
+2015-10-04.16:46:57	The loser median is 905.766, Tien__Trung and Ha_Cuu_Long.
+2015-10-04.16:46:57	E_w = 0.557622, E_l = 0.442378
+2015-10-04.16:46:57	The winner median is 857.345, Quoc__Huy__.
+2015-10-04.16:46:57	The loser median is 920.727, Long__Hiep_.
+2015-10-04.16:46:57	E_w = 0.409785, E_l = 0.590215
+2015-10-04.16:46:57	The winner median is 901.896, Long__Hiep_ and Toan__Thang.
+2015-10-04.16:46:57	The loser median is 891.214, Quoc__Huy__ and Quang_Phuoc.
+2015-10-04.16:46:57	E_w = 0.515367, E_l = 0.484633
+2015-10-04.16:46:57	The winner median is 861.568, Quoc__Huy__.
+2015-10-04.16:46:57	The loser median is 882.089, Quang_Phuoc.
+2015-10-04.16:46:57	E_w = 0.470503, E_l = 0.529497
+2015-10-04.16:46:57	The loser median is 872.337, KTuan_Khoa_.
+2015-10-04.16:46:57	E_w = 0.414855, E_l = 0.585145
+2015-10-04.16:46:57	Executing completed.
+2015-10-04.16:46:59	Executing block 5
+2015-10-04.16:46:59	The winner median is 863.37, Quoc__Huy__ and Duy__Tinh__.
+2015-10-04.16:46:59	The loser median is 751.912, Dang__Khoa_ and Hoang__Vu__.
+2015-10-04.16:46:59	E_w = 0.655116, E_l = 0.344884
+2015-10-04.16:46:59	The winner median is 863.319, Van__Hoang_.
+2015-10-04.16:46:59	The loser median is 859.311, Minh__Duong.
+2015-10-04.16:46:59	E_w = 0.505768, E_l = 0.494232
+2015-10-04.16:46:59	The winner median is 871.697, LB_Bao__Loc.
+2015-10-04.16:46:59	The loser median is 805.435, Thai__Nghi_.
+2015-10-04.16:46:59	E_w = 0.594218, E_l = 0.405782
+2015-10-04.16:46:59	The winner median is 872.51, Ng_The_Linh and LB_Bao__Loc.
+2015-10-04.16:46:59	The loser median is 812.874, DHoang__Anh and Quang_Phuoc.
+2015-10-04.16:46:59	E_w = 0.584991, E_l = 0.415009
+2015-10-04.16:46:59	The winner median is 756.441, Huong__Minh.
+2015-10-04.16:46:59	The loser median is 842.588, KTuan_Khoa_.
+2015-10-04.16:46:59	E_w = 0.378504, E_l = 0.621496
+2015-10-04.16:46:59	The winner median is 886.652, Duy__Tinh__.
+2015-10-04.16:46:59	The loser median is 810.403, Van__Khai__.
+2015-10-04.16:46:59	E_w = 0.608003, E_l = 0.391997
+2015-10-04.16:46:59	The winner median is 839.574, Toan__Thang and Quoc__Huy__.
+2015-10-04.16:46:59	The loser median is 481.652, Thuc__Huong and Minh__Thu__.
+2015-10-04.16:46:59	E_w = 0.886991, E_l = 0.113009
+2015-10-04.16:46:59	The winner median is 806.569, KTuan_Khoa_.
+2015-10-04.16:46:59	The loser median is 823.682, HTuan_Khoa_.
+2015-10-04.16:46:59	E_w = 0.475392, E_l = 0.524608
+2015-10-04.16:46:59	The winner median is 914.836, Dau_Hai_Nam.
+2015-10-04.16:46:59	The loser median is 820.228, Van__Khai__.
+2015-10-04.16:46:59	E_w = 0.632883, E_l = 0.367117
+2015-10-04.16:46:59	The winner median is 876.905, Gia__Khang_.
+2015-10-04.16:46:59	The loser median is 770.485, Tien__Trung.
+2015-10-04.16:46:59	E_w = 0.648535, E_l = 0.351465
+2015-10-04.16:46:59	Executing completed.
+2015-10-04.16:47:02	Executing block 6
+2015-10-04.16:47:02	The ratings do not change.
+2015-10-04.16:47:02	The winner median is 828.595, Minh__Duong.
+2015-10-04.16:47:02	The loser median is 790.143, Thai__Nghi_.
+2015-10-04.16:47:02	E_w = 0.555112, E_l = 0.444888
+2015-10-04.16:47:02	The loser median is 793.742, Huong__Minh.
+2015-10-04.16:47:02	E_w = 0.723627, E_l = 0.276373
+2015-10-04.16:47:02	The winner median is 791.485, Van__Khai__.
+2015-10-04.16:47:02	The loser median is 793.742, Huong__Minh.
+2015-10-04.16:47:02	E_w = 0.496751, E_l = 0.503249
+2015-10-04.16:47:02	The winner median is 947.963, Quoc__Hung_.
+2015-10-04.16:47:02	The loser median is 795.496, Gia__Phuc__.
+2015-10-04.16:47:02	E_w = 0.706339, E_l = 0.293661
+2015-10-04.16:47:02	The winner median is 635.242, Quang__Huy_ and Dinh__Trong.
+2015-10-04.16:47:02	The loser median is 805.483, Quoc__Huy__ and Van__Khai__.
+2015-10-04.16:47:02	E_w = 0.272895, E_l = 0.727105
+2015-10-04.16:47:02	The ratings do not change.
+2015-10-04.16:47:02	The ratings do not change.
+2015-10-04.16:47:02	The ratings do not change.
+2015-10-04.16:47:02	The winner median is 866.89, Duy__Tinh__ and Ng_Cat__Han.
+2015-10-04.16:47:02	The loser median is 720.34, Quang_Phuoc and Ng_Nhat_Nam.
+2015-10-04.16:47:02	E_w = 0.699225, E_l = 0.300775
+2015-10-04.16:47:02	Executing completed.
+2015-10-04.16:47:04	Executing block 7
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	The ratings do not change.
+2015-10-04.16:47:04	Executing completed.

@@ -1,0 +1,115 @@
+The logfile is OK.
+>> SETUP()
+Trying to set up.
+Setting up completed.
+>> INP(1)
+Reading input from block 1
+The input file for block 1 is OK.
+Reading completed.
+>> INP(2)
+Reading input from block 2
+The input file for block 2 is OK.
+Reading completed.
+>> INP(3)
+Reading input from block 3
+The input file for block 3 is OK.
+Reading completed.
+>> INP(4)
+Reading input from block 4
+The input file for block 4 is OK.
+Reading completed.
+>> INP(5)
+Reading input from block 5
+The input file for block 5 is OK.
+Reading completed.
+>> INP(6)
+Reading input from block 6
+The input file for block 6 is OK.
+Reading completed.
+>> INP(7)
+Reading input from block 7
+The input file for block 7 is OK hi hi hi.
+Reading completed.
+>> EXE(1)
+Executing block 1
+Executing completed.
+>> EXE(2)
+Executing block 2
+Executing completed.
+>> EXE(3)
+Executing block 3
+Executing completed.
+>> EXE(4)
+Executing block 4
+Executing completed.
+>> EXE(5)
+Executing block 5
+Executing completed.
+>> EXE(6)
+Executing block 6
+Executing completed.
+>> EXE(7)
+Executing block 7
+Executing completed.
+>> RANK()
+1	Viet__Cuong	1170.58
+2	Xuan__Tung_	1085.09
+3	Khanh_Tung_	1032.37
+4	Trng_Nguyen	1020.11
+5	Quang__Hung	1013.94
+6	Xuan__Hoang	1001.24
+7	Khuong__Duy	984.772
+8	HTuan_Khoi_	984.036
+9	Ng_Xuan_Son	982.841
+10	Ng_Le__Quan	976.271
+11	Quoc__Hung_	971.74
+12	Ng_Le_Cat__	970.045
+13	Minh__Tri__	917.518
+14	Dau_Hai_Nam	915.462
+15	Ng_Gia__Loc	908.741
+16	Tr_Tan_Phat	906.592
+17	NHoang__Anh	905.048
+18	Gia__Khang_	902.995
+19	Ng_Cat__Han	888.686
+20	Duy__Tinh__	869.156
+21	LB_Bao__Loc	858.93
+22	Minh__Duong	858.422
+23	Van__Hoang_	842.204
+24	Thanh__An__	840.312
+25	Ng_Ba_Thinh	834.347
+26	Toan__Thang	831.351
+27	KTuan_Khoa_	826.927
+28	Long__Hiep_	823.957
+29	Van__Khai__	823.646
+30	Quoc__Huy__	811.382
+31	Huong__Minh	805.773
+32	Thai__Nghi_	802.174
+33	Tien__Trung	797.257
+34	Gia__Phuc__	795.496
+35	Ng_The_Linh	778.905
+36	Son__Hoang_	775.706
+37	HTuan_Khoa_	773.955
+38	Hong__Phuc_	762.403
+39	Ha_Cuu_Long	754.602
+40	Hung__Trung	752.028
+41	DHoang__Anh	731.88
+42	Ng_Nhat_Nam	727.729
+43	Quang_Phuoc	712.951
+44	Kim__Thach_	711.103
+45	PN__Mai__Vy	701.122
+46	Dinh__Trong	694.528
+47	Bang___Tam_	677.714
+48	Viet__Huong	668.346
+49	Ng_Bao_Nhi_	663.536
+50	Hoang__Vu__	655.449
+51	Quang__Huy_	646.155
+52	Ngoc__Thach	623.79
+53	Dang__Khoa_	621.044
+54	Duc__Huy___	595.028
+55	Minh__Thu__	557.584
+56	Hoai_Thuong	484.961
+57	Thuc__Huong	297.223
+57	Minh__Triet	297.223
+57	BMinh_Kiet_	297.223
+57	BH_Chi_Nhan	297.223
+>> 
