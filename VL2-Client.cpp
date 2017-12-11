@@ -1,4 +1,9 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <cmath>
+/* #include <bits/stdc++.h> */
 
 using namespace std;
 
@@ -18,8 +23,8 @@ using namespace std;
 
 const int X_max		= 	60;		// 	number of contestants
 const int Y_max		= 	7;		// 	number of rounds
-const int Z_max		= 	10;		// 	number of questions in (Y-1)st rounds
-const int Z_final 	= 	12;		// 	number of questions in the final round 
+/* const int Z_max		= 	10;		// 	number of questions in (Y-1)st rounds */
+/* const int Z_final 	= 	12;		// 	number of questions in the final round */ 
 const int K_1200 	=	40;
 const int K_1400	= 	30;
 const int K_1600	= 	20;
@@ -42,18 +47,23 @@ void setup();
 void input_update(int block, int question);
 void input(int block);
 long double expect(long double rating_A, long double rating_B);
+int K_const(long double ratings);
 bool ratingsRank(contestant A, contestant B);
 bool idRank(contestant A, contestant B);
-long double median(vector <contestant> scores, int size, int type);
+long double median(vector <contestant> scores, int size, int type, int block, int question);
 void rating_update(int block, int question);
 void execute(int block);
 void output(int block);
-void rank();
+void _rank();
 void showlog();
 
 string command;
+string fname[] = {"inp1.txt", "inp2.txt", "inp3.txt", "inp4.txt", "inp5.txt", "inp6.txt", "inp7.txt"};
 ofstream fLOG;
-ifstream fCONTEST, fSHOW, fINP1, fINP2, fINP3, fINP4, fINP5, fINP6, fINP7;
+ifstream fCONTEST, fSHOW /*, fINP1, fINP2, fINP3, fINP4, fINP5, fINP6, fINP7 */;
+// New instances
+ifstream fINP[7];
+int Z[7] = {10, 10, 10, 10, 10, 10, 12};
 
 int main() {
 	fLOG.open(LOG);
@@ -64,8 +74,7 @@ int main() {
 		cout << "Please verify the logfile." << endl;
 	}
 
-	cout << ">> ";
-	while (cin >> command) {
+	while ((cout << ">> ") && (cin >> command)) {
 		if (command == "SETUP()") {
 			cout << "Trying to set up." << endl;
 			fLOG << cur() << "\t" << "Trying to set up." << endl;
@@ -113,7 +122,7 @@ int main() {
 		             command.at(5) == ')' ) {
 			break;
 		}	else if (command == "RANK()") {	//	RANK()
-			rank();
+			_rank();
 		}	else if (command == "SHOWLOG()") {
 			cout << "Reading logfile." << endl;
 			showlog();
@@ -121,7 +130,6 @@ int main() {
 		}	else {
 			cout << "Invalid command. Please try again." << endl;
 		}
-		cout << ">> ";
 	}
 
 	return 0;
@@ -137,11 +145,7 @@ string cur() {
 }
 
 int qst_MAX(int block) {
-	if (block < Y_max - 1) {
-		return Z_max;
-	}	else {
-		return Z_final;
-	}
+    return Z[block];
 }
 
 void setup() {
@@ -160,15 +164,9 @@ void setup() {
 		isMedian[x].resize(Y_max);
 
 		for (int y = 0; y < Y_max; y++) {
-			if (y < Y_max - 1) {
-				board[x].results[y].resize(Z_max);
-				change[x][y].resize(Z_max);
-				isMedian[x][y].resize(Z_max);
-			}	else {
-				board[x].results[y].resize(Z_final);
-				change[x][y].resize(Z_final);
-				isMedian[x][y].resize(Z_final);
-			}
+                        board[x].results[y].resize(Z[y]);
+                        change[x][y].resize(Z[y]);
+                        isMedian[x][y].resize(Z[y]);
 		}
 	}
 
@@ -184,135 +182,21 @@ void setup() {
 }
 
 void input(int block) {
-	switch (block) {
-	case 0:
-		fINP1.open(INP1);
-		if (fINP1.is_open()) {
-			cout << "The input file for block 1 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 1 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP1 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP1 >> board[temp - 1].results[block][z];
-				}
-			}
-		}	else {
-			cout << "Please verify the input file for block 1." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 1." << endl;
-		}
-		break;
-
-	case 1:
-		fINP2.open(INP2);
-		if (fINP2.is_open()) {
-			cout << "The input file for block 2 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 2 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP2 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP2 >> board[temp - 1].results[block][z];
-				}
-			}
-		}	else {
-			cout << "Please verify the input file for block 2." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 2." << endl;
-		}
-		break;
-
-	case 2:
-		fINP3.open(INP3);
-		if (fINP3.is_open()) {
-			cout << "The input file for block 3 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 3 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP3 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP3 >> board[temp - 1].results[block][z];
-				}
-			}
-		}	else {
-			cout << "Please verify the input file for block 3." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 3." << endl;
-		}
-		break;
-
-	case 3:
-		fINP4.open(INP4);
-		if (fINP4.is_open()) {
-			cout << "The input file for block 4 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 4 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP4 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP4 >> board[temp - 1].results[block][z];
-				}
-			}
-		}	else {
-			cout << "Please verify the input file for block 4." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 4." << endl;
-		}
-		break;
-
-	case 4:
-		fINP5.open(INP5);
-		if (fINP5.is_open()) {
-			cout << "The input file for block 5 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 5 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP5 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP5 >> board[temp - 1].results[block][z];
-				}
-			}
-		}	else {
-			cout << "Please verify the input file for block 5." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 5." << endl;
-		}
-		break;
-
-	case 5:
-		fINP6.open(INP6);
-		if (fINP6.is_open()) {
-			cout << "The input file for block 6 is OK." << endl;
-			fLOG << cur() << "\t" << "The input file for block 6 is OK." << endl;
-			for (int x = 0; x < X_max; x++) {
-				int temp;
-				fINP6 >> temp;
-				for (int z = 0; z < qst_MAX(block); z++) {
-					fINP6 >> board[temp - 1].results[block][z];
-				}
-			}
-		}
-		else {
-			cout << "Please verify the input file for block 6." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 6." << endl;
-		}
-		break;
-
-	case 6:
-		fINP7.open(INP7);
-		if (fINP7.is_open()) {
-			cout << "The input file for block 7 is OK hi hi hi." << endl;
-			fLOG << cur() << "\t" << "The input file for block 7 is OK." << endl;
-			for (int a = 0; a < 60; a++) {
-				int temp;
-				fINP7 >> temp;
-				for (int z = 0; z < 12; z++) {
-					fINP7 >> board[temp - 1].results[block-1][z];
-				}
-			}
-		}
-		else {
-			cout << "Please verify the input file for block 7." << endl;
-			fLOG << cur() << "\t" << "Please verify the input file for block 7." << endl;
-		}
-		break;
-	}
+        fINP[block].open(fname[block]);
+        if (fINP[block].is_open()) {
+                cout << "The input file for block " << block+1 << " is OK." << endl;
+                fLOG << cur() << "\t" << "The input file for block " << block+1 << " is OK." << endl;
+                for (int x = 0; x < X_max; x++) {
+                        int temp;
+                        fINP[block] >> temp;
+                        for (int z = 0; z < qst_MAX(block); z++) {
+                                fINP[block] >> board[temp - 1].results[block - (block == 7-1)][z];
+                        }
+                }
+        }	else {
+                cout << "Please verify the input file for block " << block+1 << '.' << endl;
+                fLOG << cur() << "\t" << "Please verify the input file for block " << block+1 << '.' << endl;
+        }
 	return;
 }
 
@@ -456,7 +340,7 @@ void output(int block) {
 	return;
 }
 
-void rank() {
+void _rank() {
 	sort(board.begin(), board.begin() + X_max, ratingsRank);
 
 	for (int x = 0, i = 1; x < X_max; x++) {
